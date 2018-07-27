@@ -241,8 +241,8 @@ def update_graph(
                 ],
             mode='markers',
             marker=dict(
-                symbol="0",
-                color='fdae61',
+                symbol=0,
+                color='#fdae61',
                 size=12,
                 ),
             fill='toself',
@@ -263,8 +263,8 @@ def update_graph(
                 ],
             mode = 'markers',
             marker = dict(
-                symbol = "0",
-                color = 'd7191c',
+                symbol = 'circle',
+                color = '#d7191c',
                 size=12,
                 ),
             fill = 'toself',
@@ -285,8 +285,8 @@ def update_graph(
                 ],
             mode = 'markers',
             marker = dict(
-                symbol = "0",
-                color = '2b83ba',
+                symbol = 'circle',
+                color = '#2b83ba',
                 size=12,
                 ),
             fill = 'toself',
@@ -308,12 +308,12 @@ def update_graph(
             mode = 'markers',
             unselected=dict(
                 textfont=dict(
-                    color='abdda4',
+                    color='#abdda4',
                     ),
                 ),
             marker = dict(
-                symbol = "0",
-                color = 'abdda4',
+                symbol = 'circle',
+                color = '#abdda4',
                 size=12,
                 ),
             fill = 'toself',
@@ -322,8 +322,8 @@ def update_graph(
     ]
     layout = go.Layout(
         autosize=True,
-        height=800,
-        margin=dict(l='auto', r='auto', t='auto', b='auto', pad=0),
+        height=600,
+        margin=dict(l=45, r=45, t=70, b=70, pad=0),
         polar =dict(
             radialaxis=dict(
                 visible=True,
@@ -338,7 +338,7 @@ def update_graph(
                 ticklen=40,
                 ticks='outside',
                 tickfont=dict(
-                    family='Raleway',
+                    family='Open Sans',
                     size=16,
                     ),
                 ),
